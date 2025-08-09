@@ -20,6 +20,7 @@ import {
 } from "./pages";
 import ScrollToTop from "./components/ScrollToTop";
 import { Toaster } from "react-hot-toast";
+import { ProductCatalog } from "./components";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -27,7 +28,8 @@ root.render(
     <ScrollToTop>
       <Provider store={store}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<ProductCatalog />} />
           <Route path="/product" element={<Products />} />
           <Route path="/product/:id" element={<Product />} />
           <Route path="/about" element={<AboutPage />} />
