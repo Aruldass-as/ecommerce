@@ -21,7 +21,6 @@ How to run the app:
 1. cd/ecommerce/api
 2. npm install --> for windows / sudo npm install --> mac
 3. ecommerce/api/.env --> use below mentioned key
-OPENAI_API_KEY=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
 3. node server.js --> for windows / sudo node server.js --> mac
 4. http://localhost:4000/ 
 
