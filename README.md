@@ -30,6 +30,7 @@ Which AI feature you choose:
 Option A – Smart Product Search (NLP)
 
 
+
 Tools/libraries used:
 =====================
 react app -> axios
