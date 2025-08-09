@@ -97,8 +97,8 @@ app.post('/search', async (req, res) => {
     const category = filters.category ? filters.category.toLowerCase() : null;
     const maxPrice = filters.max_price !== null ? Number(filters.max_price) : Infinity;
     const minPrice = filters.min_price != null ? Number(filters.min_price) : 0;
-    const minRating = filters.min_reviews !== null ? Number(filters.min_rating) : 0;
-    const maxRating = filters.max_reviews !== null ? Number(filters.max_rating) : 0;
+    const minRating = filters.min_rating !== null ? Number(filters.min_rating) : 0;
+    const maxRating = filters.max_rating !== null ? Number(filters.max_rating) : Infinity;
     const name = filters.name ? filters.name.toLowerCase() : null;
 
     if (!category && !name && maxPrice === Number.MAX_SAFE_INTEGER && minPrice === Number.MIN_SAFE_INTEGER && minRating === 0 && maxRating === 0) {
@@ -115,8 +115,8 @@ app.post('/search', async (req, res) => {
       if (name && !productName.includes(name)) return false;
       if (product.price > maxPrice) return false;
       if (product.price < minPrice) return false;
-      if (product.reviews < minRating) return false;
-      if (product.reviews > maxRating) return false;
+      if (product.rating < minRating) return false;
+      if (product.rating > maxRating) return false;
       return true;
     });
 

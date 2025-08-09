@@ -12,7 +12,7 @@ Run react app:
    3. below rating 3
    4. below price 80
    5. above price 100
-   6. fruits / dairy / bakery / eggs / seafood / meat / pantry / vegetables
+   6. fruits / dairy / bakery / eggs / seafood / vegetables
    
 
 
