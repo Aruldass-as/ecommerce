@@ -2,8 +2,8 @@ Run react app:
 ==============
 1. Clone the project folder
 2. cd/ecommerce
-2. npm install --> for windows / sudo npm install --> mac
-3. npm start --> for windows / sudo npm start --> mac
+2. npm install --> run command for windows / sudo npm install --> mac
+3. npm start --> run command for windows / sudo npm start --> mac
 4. http://localhost:3000/
 5. Navigate to "Product Catalog" tab
 6. start search:
@@ -19,7 +19,7 @@ Run react app:
 Run server app:
 ===============
 1. cd/ecommerce/api
-2. npm install --> for windows / sudo npm install --> mac
+2. npm install --> run command for windows / sudo npm install --> mac
 3. ecommerce/api/.env --> update "OPENAI_API_KEY" secret key, follow below steps
    1. Create openai key & update here:
    2. https://platform.openai.com/ 
@@ -27,7 +27,7 @@ Run server app:
    4. Create new secret key
    5. Copy key
    6. paste here 'key start with sk'
-3. node server.js --> for windows / sudo node server.js --> mac
+3. node server.js --> run command for windows / sudo node server.js --> mac
 4. http://localhost:4000/ 
 
 
