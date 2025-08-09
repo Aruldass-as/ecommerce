@@ -1,6 +1,5 @@
-How to run the app:
-===================
-//run react app
+Run react app:
+==============
 1. Clone the project folder
 2. cd/ecommerce
 2. npm install --> for windows / sudo npm install --> mac
@@ -17,7 +16,8 @@ How to run the app:
    
 
 
-// run server app
+Run server app:
+===============
 1. cd/ecommerce/api
 2. npm install --> for windows / sudo npm install --> mac
 3. ecommerce/api/.env --> update "OPENAI_API_KEY" secret key, follow below steps
@@ -39,11 +39,13 @@ Option A – Smart Product Search (NLP)
 
 Tools/libraries used:
 =====================
-1. react app ->  1. axios
-2. server app -> 1. cors
-                 2. dotenv
-                 3. express
-                 4. openai
+1. react app 
+   1. axios
+2. server app 
+   1. cors
+   2. dotenv
+   3. express
+   4. openai
 
 
 Any notable assumptions:
